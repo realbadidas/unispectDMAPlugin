@@ -26,7 +26,7 @@ namespace MyMemoryNameSpace
 
             try
             {
-                vmm = new Vmm("-norefresh", "-v", "-device", "FPGA");
+                vmm = new Vmm("-device", "FPGA");
                 Log.Add("Connected to device!");
                 connected = true;
             }
